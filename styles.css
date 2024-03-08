@@ -551,7 +551,8 @@ header {
     display: flex;
     align-items: center;
     gap: 96px;
-    width: 100%;
+    /* width: 100%; */
+    min-width: 1200px; /* delete it */
 }
 
 .slide {
@@ -626,6 +627,54 @@ header {
     border: 1px solid #696969;
 }
 /* end of news section */
+
+/* instagram */
+.instagramSection{
+    width: 100%;
+    height: 623px;
+    background-color: #FFF7F0;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 4rem;
+    align-items: center;
+    overflow: hidden;
+}
+.instagram-right{
+    flex: 0.5;
+}
+.instagram-right h2{
+    font-size: 40px;
+    line-height: 60px;
+    color: #AA6627;
+}
+.instagram-right p{
+    font-size: 24px;
+    margin: 48px 0;
+    line-height: 36px;
+    font-weight: bold;
+}
+.instagram-right a{
+    background-color: #0098FD;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 8px;
+    padding: 8px 60px;
+}
+.instagram-left{
+    height: 100%;
+    flex: 0.5;
+    overflow: hidden;
+    background: url('img/iphone.png');
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.instagram-left img{
+    width: 737px;
+}
+/* end of instagram */
 
 /* footer */
 footer{
